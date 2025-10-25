@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+   <header>
+      <h1>Мой сайт</h1>
+   </header>
+
+   <nav>
+      <ul>
+         <li><a href="#Обо мне">Обо мне</a></li>
+         <li><a href="#Проект">Проект</a></li>
+         <li><a href="#Статьи">Статьи</a></li>
+         <li><a href="#Контакты">Контакты</a></li>
+         <li><a href="#Регестрация">Регестрация</a></li>
+      </ul>
+   </nav>
+
+   <main>
+      <!-- чисто обо мне с микротемами -->
+      <section id = "Обо мне">
+         <h3>Обо мне</h3>
+         <p>Меня не зовут я сам прихожу а еще мне 14 световых лет</p>
+         <article>
+            <!-- какие я яп знаю -->
+            <h3>Языки программирования какие я знаю</h3>
+            <p>Я знаю языки : 
+               <ol>
+                  <li>Python (50/50 Beginner)</li>
+                  <li>C++ (Beginner level)</li>
+                  <li>Kumir (Senior level)</li>
+                  <li>Scratch (Ultra Senior level)</li>
+                  <li>Алгоритмы и База данных(30% - 100%)</li>
+               </ol>
+            </p>
+         </article>
+      </section>
+         <!-- Проект - не помню вроде что то делал -->
+      <section id = "Проект">
+         <h3>Проекты</h3>
+         <p>Не помню</p>
+      </section>
+         <!-- Не писал я не какие статьи ! -->
+      <section id = "Статьи">
+         <h3>Цитата</h3>
+         <blockquote>
+            <b>
+               «Если жить, то красиво. Если взгляд, то чёткий.
+               Если надеяться, то только на себя.
+               Если любить, то всем сердцем»
+            </b>
+         </blockquote>
+      </section>
+   </main>
+   <footer>
+      <!-- Контакты -->
+      <section id = 'Контакты'>
+         <h3>Контакты со мной</h3>
+         <p><strong>Почта : </strong>sergejpodmogilnyj12@gmail.com</p>
+      </section>
+      <!-- Регистрация -->
+      <section id = 'Регестрация'>
+      <form>
+         <fieldset>
+            <legend>Личные данные</legend>
+               <label for = "username">Имя пользователя : </label>
+               <input type ="text" id = "username" name ="login" 
+               placeholder="От 1 до бесконечности">
+
+               <label for = "email">Почта : </label>
+               <input type ="text" id = "email" name ="email" 
+               placeholder="От 1 до бесконечности">
+
+               <label for = "smisl">Смысл сообщения : </label>
+               <select id="smisl" name="smisl" required>
+                  <option value="" disabled selected>--смысл сообщения</option>
+                  <option value="prostotak">Просто так</option>
+                  <option value="report">Другое</option>
+               </select>
+
+               <label>Сообщение : </label><br>
+               <textarea placeholder="Напишите сообщение ..."></textarea>
+
+               <button type="submit">Отправить</button>
+         </fieldset>
+      </form>
+      </section>
+   </footer>
+</body>
+
+</html>
